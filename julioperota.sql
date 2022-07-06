@@ -41,7 +41,7 @@ CREATE TABLE `julioperota` (
 --
 
 --
--- Índices para tabela `armario`
+-- Índices para tabela `julioperota`
 --
 ALTER TABLE `julioperota`
   ADD PRIMARY KEY (`ID`);
