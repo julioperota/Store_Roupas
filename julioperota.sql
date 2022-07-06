@@ -20,16 +20,16 @@ SET time_zone = "+00:00";
 --
 -- Banco de dados: `armario`
 --
-CREATE DATABASE IF NOT EXISTS `armario` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
-USE `armario`;
+CREATE DATABASE IF NOT EXISTS `juliperota` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+USE `julioperota`;
 
 -- --------------------------------------------------------
 
 --
--- Estrutura da tabela `armario`
+-- Estrutura da tabela `julioperota`
 --
 
-CREATE TABLE `armario` (
+CREATE TABLE `julioperota` (
   `ID` int(11) NOT NULL,
   `TIPO` varchar(45) DEFAULT NULL,
   `COR` varchar(45) DEFAULT NULL,
@@ -43,7 +43,7 @@ CREATE TABLE `armario` (
 --
 -- Índices para tabela `armario`
 --
-ALTER TABLE `armario`
+ALTER TABLE `julioperota`
   ADD PRIMARY KEY (`ID`);
 COMMIT;
 
