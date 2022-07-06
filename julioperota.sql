@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Banco de dados: `armario`
+-- Banco de dados: `julioperota`
 --
 CREATE DATABASE IF NOT EXISTS `juliperota` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
 USE `julioperota`;
